@@ -21,16 +21,15 @@ import LottieInt from "@c/Element/Lottie/LottieInt/LottieInt.astro";	///	[Lottie
 			</div>
 
 			
-			<div class="p-8 bg-offset rounded-3xl">
-				LottieInteractives
-				<LottieInt id="passing_id" mode="scroll" action={[
-				{
-				  visibility: [0, 1],
-				  type: 'seek',
-				  frames: [0, 300], 
-				},
-			  ]} name="test" json="https://assets9.lottiefiles.com/packages/lf20_nivsnvgo.json"  width="500px" />
-			</div>
+			<div class="bg-offset rounded-3xl">
+				<LottieInt className="place-content-center justify-center " id="omonkey" mode="scroll" action={[
+				  {
+					visibility: [0, 1],
+					type: 'seek',
+					frames: [0, 150], 
+				  },
+				  ]} name="test" json="https://assets8.lottiefiles.com/packages/lf20_bburfggv.json"  width="100%" />
+				  </div>
 	</div>	
 </SWUP>
 </Core>
